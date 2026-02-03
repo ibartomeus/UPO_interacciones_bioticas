@@ -86,14 +86,14 @@ robustness(r3a)
 #comparamos both
 #random
 plot(cumsum(r1f[,"ext.higher"]), cumsum(r1f[,"ext.lower"]), 
-     las = 1, t = "l", 
+     las = 1, t = "l", xlim = c(0,13), ylim = c(0,14),
      xlab = "Extinctions", ylab = "Secondary extinctions")
 lines(cumsum(r1a[,"ext.higher"]), cumsum(r1a[,"ext.lower"]), 
       las = 1, t = "l", col = 4)
 
 #abundance
 plot(cumsum(r2f[,"ext.higher"]), cumsum(r2f[,"ext.lower"]), 
-     las = 1, t = "l", 
+     las = 1, t = "l",  xlim = c(0,13), ylim = c(0,14),
      xlab = "Extinctions", ylab = "Secondary extinctions")
 lines(cumsum(r2a[,"ext.higher"]), cumsum(r2a[,"ext.lower"]), 
       las = 1, t = "l", col = 4)
