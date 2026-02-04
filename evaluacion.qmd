@@ -1,0 +1,49 @@
+---
+title: "Evaluación"
+format: pdf
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+Gracias a las clases que os dieron Nacho y Virginia en el máster (y muchas horas de campo, análisis, y lectura), sois unos cracks de la ecología y os han contratado como expertos ante un problema de seguridad nacional. Efectivamente, he dicho “contratado”, y os ofrecen una pasta gansa, pero no cogéis el trabajo por el dinero, sino porque creéis que poner la ciencia al servicio de la humanidad es vuestro deber. Al final, un gran poder conlleva una gran responsabilidad. 
+
+Recibís en un mensaje que se autodestruirá en 5 segundos la siguiente información. 
+
+“Hemos detectado que se han escapado varios mapaches en Matalascañas. Esta especie no es nativa en la zona y amenaza la estabilidad de las comunidades nativas. La vegetación (plantas anuales, jaras y frutales silvestres) sostienen a ratones de campo, topillos, ratas de agua, conejos, ciervos y a una gran variedad de patos y aves acuáticas, que a su vez son el menú principal del lince ibérico, el águila imperial, y carnívoros como el meloncillo, el zorro, o el tejon. Sabemos que el mapache es omnívoro pudiendo alimentarse de huevos de patos o cazando micromamíferos, pero, también comerá frutos.
+
+1.  Dibuja una potencial red original (usando `igraph`).
+
+    ```{r}
+
+    ```
+
+2.  Describe la integración del mapache en la red y añadelo como nodo (es decir, que nuevas interaciones se establecen).
+
+    ```{r}
+
+    ```
+
+3.  ¿Que te interesaría saber sobre la red antes de ser invadida? ¿Qué medirías después?
+
+4.  Calcula alguna de las medidas que has propuesto.
+
+    ```{r}
+
+    ```
+
+5.  Que limitaciones tienen las medidas o indices que has usado?
+
+6.  Los mamiferos de Doñana tienen pulgas. Algunas pulgas son especialistas, pero la mayoria pueden parasitar a varios mamiferos. ¿Que tipo de red esperas que formen las pulgas y los mamiferos? Dibuja una red de pulgas y mamiferos (puedes usar Pulga_sp1, Pulga_sp2, para las diferentes especies de pulga). Decide que estructura le daras y razona porque crees que estara estructurada así (no hay respuestas erroneas)
+
+    ```{r}
+
+    ```
+
+7.  Como medirias la probabilidad de coexistencia de dos especies de pulga en el mismo lince? ¿Y en la misma familia de linces?
+
+8.  Resulta que un grupo de investigación acaba de publicar la primera red de pulgas y mamiferos de Doñana, como compararías tu estructura hipotetica del punto anterior con la red de pulgas y mamiferos observada en campo.
+
+9.  Cogera pulgas el mapache? Como calcularias la probabilidad de que pille pulgas?
+
+10. Crees que las interacciones que establece el mapache pueden cambiar las presiones de selección y promover adaptaciones? ¿alguna hipotesis?
